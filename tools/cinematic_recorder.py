@@ -21,10 +21,10 @@ from rlbench.sim2real.domain_randomization import RandomizeEvery, \
 FLAGS = flags.FLAGS
 
 flags.DEFINE_string(
-    'save_dir', '/tmp/rlbench_videos/',
+    'save_dir', '/home/zjushine/rlbench_videos/',
     'Where to save the generated videos.')
 flags.DEFINE_list(
-    'tasks', [], 'The tasks to record. If empty, all tasks are recorded.')
+    'tasks', ['pour_the_cooking_oil_onto_the_hot_stove'], 'The tasks to record. If empty, all tasks are recorded.')
 flags.DEFINE_boolean(
     'individual', True, 'One long clip of all the tasks, or individual videos.')
 flags.DEFINE_boolean(
@@ -34,7 +34,7 @@ flags.DEFINE_string(
     'Where to locate textures if using domain randomization.')
 flags.DEFINE_boolean('headless', True, 'Run in headless mode.')
 flags.DEFINE_list(
-    'camera_resolution', [1280, 720], 'The camera resolution')
+    'camera_resolution', [1920, 1080], 'The camera resolution')
 
 
 class CameraMotion(object):
