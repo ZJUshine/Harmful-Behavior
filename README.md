@@ -79,24 +79,6 @@ Each task is defined by:
    - Waypoints for reference policy
    - Sensors for success detection
 
-
-## Citation
-
-If you use this dataset, please cite:
-
-```bibtex
-@misc{lu2025poexpolicyexecutablejailbreak,
-    title={POEX: Towards Policy Executable Jailbreak Attacks Against the LLM-based Robots},
-    author={Xuancun Lu and Zhengxian Huang and Xinfeng Li and Chi Zhang and Xiaoyu Ji and Wenyuan Xu},
-    year={2025},
-    eprint={2412.16633},
-    archivePrefix={arXiv},
-    primaryClass={cs.RO},
-    url={https://arxiv.org/abs/2412.16633},
-}
-
-```
-
 ## License
 
 This project is for research purposes only. The harmful tasks are designed to evaluate robot system security and should not be used for malicious purposes.
